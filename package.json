@@ -1,0 +1,35 @@
+{
+  "name": "hlxnodeapp",
+  "version": "0.3.0",
+  "description": "A sample Node.js app using Express 4",
+  "engines": {
+    "node": "8.9.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "express": "^4.10.2",
+    "socket.io": "^2.0.4",
+    "ip2location-nodejs": "^8.1.1",
+    "ip2proxy-nodejs": "^1.1.0"
+
+  },
+  "devDependencies": {
+    "request": "^2.81.0",
+    "tape": "^4.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/hlxnodeapp.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}
+
